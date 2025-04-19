@@ -1,1 +1,38 @@
+Task 1
+a = int(input())
+b = int(input())
+
+if a > b:
+    print(a)
+else:
+    print(b)
+
+Task 2
+year = int(input())
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("YES")
+else:
+    print("NO")
+
+Task 3
+a = int(input())
+b = int(input())
+
+if a == b or (a != 1 and b != 1):
+    print("YES")
+else:
+    print("NO")
+
+Task 4
+N = int(input())
+K = int(input())
+print(K%N)
+
+Task 5
+S = 109
+v = int(input())
+t = int(input())
+print(abs(v*t%S))
+
 
