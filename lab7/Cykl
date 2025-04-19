@@ -1,1 +1,49 @@
+Task 1
+a = int(input())
+b = int(input())
+if(a>b):
+    exit()
+else:
+    for i in range(a, b):
+        if(i%2==0):
+            print(i, end = ' ')
 
+Task 2
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+for i in range(a, b):
+    if(i%d==c):
+        print(i, end = ' ')
+
+Task 3
+a = int(input())
+b = int(input())
+for i in range(a, b):
+    if(i*i<=b and i*i>a):
+        print(i**2, end = ' ')
+
+Task 4
+sum = 0
+d = int(input())
+x = input()
+
+for i in x:
+    if int(i) == d:
+        sum += 1  
+
+print(sum)
+
+Task 5
+x = input()
+sum = 0
+for i in x:
+    sum += int(i)
+    
+print(sum)
+
+Task 6
+x = input()
+reversed_x = x[::-1]
+print(int(reversed_x))
